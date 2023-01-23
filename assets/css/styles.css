@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #232946;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: 'Rowdies', cursive;
+    padding: 35px 0 15px;
+    text-align: center;
+    color: #fffffe;
+    text-shadow: 0 0 5px #b8c1ec;
+}
+
+.card-game {
+    text-align: center;
+}
+
+.card-game__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.card-game .card-game__title {
+    margin-top: 15px;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #b8c1ec;
+}
+
+.card-game__type {
+    background-color: #fffffe;
+    width: 180px;
+    padding: 15px;
+    margin: 0 10px;
+    border-radius: 100%;
+}
+
+.card-game__type img {
+    width: 100%;
+}
+
+.arrow-icon {
+    width: 40px;
+}
+
+.vs-title {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Rowdies', cursive;
+    font-weight: 700;
+    color: #eebbc3;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    border: 4px solid #bae8e8;
+    background-color: #232946;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 700;
+    box-shadow: 0 0 5px #000;
+}
+
+button:active {
+    transform: translateY(3px);
+}
+
+.scissors {
+    border: 15px solid #eebbc3;
+}
+.robot {
+    border: 15px solid #a786df;
+}
+.paper {
+    border: 15px solid #f9bc60;
+}
+.lizard {
+    border: 15px solid #004643;
+}
+.spock {
+    border: 15px solid #3da9fc;
+}
+.rock {
+    border: 15px solid #f45d48;
+}
+
+
+/* responsive design */
+
+@media only screen and ( min-width: 1024px ){
+    
+    h1 {
+        padding: 50px 0 15px;
+    }
+    .cards-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media only screen and ( min-width: 1200px ){
+    
+    h1 {
+        padding: 50px 0 15px;
+    }
+    .cards-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+}

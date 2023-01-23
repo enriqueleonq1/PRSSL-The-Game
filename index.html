@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Scissors, Paper and Plus+</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <h1>Rock, Scissors, Paper, Spock and Lizard</h1>
+
+    <div class="cards-container">
+        <section class="card-game">
+            <div class="card-game__body">
+                <img src="assets/images/arrow-left.png" alt="left arrow" class="arrow-icon" id="left-arrow">
+                <div class="card-game__type scissors" id="cardType">
+                    <img src="assets/images/scissors-hand.png" alt="scissors hand">
+                </div>
+                <img src="assets/images/arrow-rigth.png" alt="arrow rigth" class="arrow-icon"id="rigth-arrow">
+            </div>
+            <p class="card-game__title">Scissors</p>
+        </section>
+    
+        <p class="vs-title">Vs</p>
+    
+        <section class="card-game">
+            <div class="card-game__body">
+                <div class="card-game__type robot">
+                    <img src="assets/images/robot_face.png" alt="paper hand" id="computer">
+                </div>
+            </div>
+            <p class="card-game__title">Computer</p>
+        </section>
+    </div>
+
+    <footer>
+        <button id="play">Let's Play!</button>
+    </footer>
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
